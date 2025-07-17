@@ -1,0 +1,12 @@
+<header [class.scrolled]="isScrolled">
+    <nav>
+      <a *ngFor="let link of ['home','about','projects','resume','contact']"
+         [routerLink]="['/' + link]"
+         [class.active]="activeSection === link">{{ link | titlecase }}</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/rishi" target="_blank"><img src="assets/icons/github.svg" /></a>
+      <a href="https://linkedin.com/in/rishi" target="_blank"><img src="assets/icons/linkedin.svg" /></a>
+    </div>
+  </header>
+  

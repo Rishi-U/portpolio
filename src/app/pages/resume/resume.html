@@ -1,0 +1,27 @@
+<section class="resume-section">
+  <div class="container">
+    <h2 class="section-title">My Resume</h2>
+    <p class="resume-description">
+      Download my resume to learn more about my education, experience, and skills.
+    </p>
+
+    <div class="resume-buttons">
+      <a href="assets/rishi-resume-fullstack.pdf" download class="download-btn">⬇️ Full Stack Resume</a>
+      <a href="assets/rishi-resume-frontend.pdf" download class="download-btn">🖥️ Frontend Resume</a>
+      <a href="assets/rishi-resume-java.pdf" download class="download-btn">☕ Java Resume</a>
+      <a href="assets/rishi-resume.pdf" download class="download-btn">⬇️ Download Resume</a>
+      <a href="assets/rishi-resume.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">🔗 Open in New Tab</a>
+    </div>
+
+    <ngx-extended-pdf-viewer
+      src="assets/rishi-resume.pdf"
+      useBrowserLocale="true"
+      height="500px"
+    ></ngx-extended-pdf-viewer>
+  </div>
+</section>
+
+<!-- Floating button -->
+<a href="assets/rishi-resume.pdf" download class="resume-fab">📎</a>
+
+<ngx-extended-pdf-viewer class="w-full h-[500px] md:h-[700px]"></ngx-extended-pdf-viewer>

@@ -1,0 +1,10 @@
+<app-social-icons></app-social-icons> 
+/* You can leave it empty or add smooth transitions */
+
+footer a img {
+    transition: transform 0.3s ease;
+  }
+  
+  footer a:hover img {
+    transform: scale(1.1);
+  }

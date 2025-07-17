@@ -1,0 +1,22 @@
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+
+  .social-icons img {
+    filter: grayscale(100%);
+  }
+  .social-icons img:hover {
+    filter: grayscale(0%);
+  }

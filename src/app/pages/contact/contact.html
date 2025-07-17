@@ -1,0 +1,67 @@
+<div class="contact-container">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" method="POST"
+      action="https://docs.google.com/forms/d/e/1FAIpQLScCsTgqqKt-RmcC5a1fKEH2Y3RyMDnM2KrtBmUZgqzYxhwv9Q/formResponse"
+      target="_blank">
+      
+      <label class="form-label">
+        Name
+        <input type="text" name="entry.2005620554" required>
+      </label>
+  
+      <label class="form-label">
+        Email
+        <input type="email" name="entry.1045781291" required>
+      </label>
+  
+      <label class="form-label">
+        Location
+        <input type="text" name="entry.1065046570">
+      </label>
+  
+      <label class="form-label">
+        Phone
+        <input type="tel" name="entry.1166974658">
+      </label>
+  
+      <label class="form-label">
+        Message
+        <textarea name="entry.839337160" rows="4" required></textarea>
+      </label>
+  
+      <button type="submit" class="submit-button">Send</button>
+    </form>
+  </div>
+  
+  <div *ngIf="submitted" class="success-message">
+    ✅ Thank you! Your message has been sent.
+  </div>
+  <div class="p-4 max-w-5xl mx-auto space-y-6">
+    <h2 class="text-3xl font-bold text-center">📬 Contact Me</h2>
+  
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLScCsTgqqKt-RmcC5a1fKEH2Y3RyMDnM2KrtBmUZgqzYxhwv9Q/viewform?embedded=true"
+      width="100%"
+      height="800"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Loading…
+    </iframe>
+  
+    <div class="w-full h-[300px]">
+      <iframe
+        width="100%"
+        height="100%"
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps?q=Tiruttani-631209&output=embed"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+
+  <div class="px-4 py-10 max-w-5xl mx-auto animate-fade-in">
+    ...
+  </div>

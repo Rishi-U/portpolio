@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: background 0.3s;
+  }
+  header.scrolled {
+    background-color: #f8f8f8;
+  }
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  nav a.active {
+    color: #1976d2;
+    border-bottom: 2px solid #1976d2;
+  }
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    filter: grayscale(1);
+    transition: filter 0.3s;
+  }
+  .social-icons img:hover {
+    filter: grayscale(0);
+  }
+  

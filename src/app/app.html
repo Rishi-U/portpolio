@@ -1,0 +1,51 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+<app-scroll-to-top></app-scroll-to-top>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+  <a [class.active]="activeSection === 'home'" href="#home">Home</a>
+  <a [class.active]="activeSection === 'projects'" href="#projects">Projects</a>
+  <a [class.active]="activeSection === 'about'" href="#about">About</a>
+  <a [class.active]="activeSection === 'contact'" href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h1>Home</h1>
+</section>
+
+<section id="projects">
+  <h1>Projects</h1>
+</section>
+
+<section id="contact">
+  <h1>skills</h1>
+</section>
+
+
+<section id="contact">
+  <h1>Resume</h1>
+  <a href="assets/rishi-resume.pdf" class="floating-resume" download>
+    <img src="assets/icons/download.svg" alt="Resume" />
+  </a>
+</section>
+
+<section id="about">
+  <h1>About</h1> <!-- ✅ Fixed -->
+</section>
+
+<section id="contact">
+  <h1>Contact</h1>
+</section>
+
+<!-- Scroll to Top Button -->
+<button 
+  *ngIf="showScrollToTop" 
+  class="scroll-top-btn" 
+  (click)="scrollToTop()"
+>
+  ↑ Top
+</button>
+
+<app-footer></app-footer>

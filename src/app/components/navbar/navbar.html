@@ -1,0 +1,38 @@
+<header class="navbar">
+<nav class="navbar">
+    <div class="navbar-logo">
+      <a routerLink="/">Rishi</a>
+    </div>
+    <ul class="navbar-links">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="/skills" routerLinkActive="active-link">Skills</a></li>
+      <li><a routerLink="/projects">Projects</a></li>
+      <li><a routerLink="/contact">Contact</a></li>
+    </ul>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/rishi-u-b4b509259/" target="_blank">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Rishi-U" target="_blank">
+        <img src="assets/icons/github.svg" alt="GitHub" />
+      </a>
+    </div>
+    <app-social-icons></app-social-icons> 
+  </nav>
+</header>
+
+<nav class="flex flex-wrap justify-between items-center px-6 py-4 bg-background text-text fixed top-0 w-full z-50">
+  <!-- Logo -->
+  <a href="#" class="text-xl font-bold">Rishi</a>
+
+  <!-- Links -->
+  <div class="flex gap-4 flex-wrap">
+    <a href="#home" class="hover:text-accent transition">Home</a>
+    <a href="#projects" class="hover:text-accent transition">Projects</a>
+    <a href="#about" class="hover:text-accent transition">About</a>
+    <a href="#contact" class="hover:text-accent transition">Contact</a>
+    <a href="#resume" class="hover:text-accent transition">Resume</a>
+  </div>
+</nav>
